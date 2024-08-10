@@ -1,3 +1,41 @@
+# Test Backend
+
+Algi Fari Ramdhani
+
+algifari11112002@gmail.com
+
+Tugas ini dibuat dengan menggunakan
+
+    1. OS Ubuntu 22 
+    2. rbenv 1.3.0-3-gbf1fcd3
+    3. ruby 3.3.4 (2024-07-09 revision be1089c8ec) [x86_64-linux]
+    4. Rails 7.0.8.4
+    5. Database SQlite
+
+Untuk mencoba repository ini, anda perlu menginstall semua hal diatas secara berurutan, kecuali database karena SQLite default database Rails. 
+
+kemudian pada `root` project anda dapat memasukkan command
+
+`bin/rails db:migrate`
+
+`bundle install`
+
+`bin/rails server`
+
+Secara default server akan berjalan pada `localhost:3000`
+
+untuk dapat melihat API documentation anda dapat `localhost:3000/api-docs/index.html`
+
+Letak folder pada project ini
+
+- Controller `/app/controllers/api`
+- Model `/app/models`
+- Routes `/config/routes.rb`
+- Unit testing `/test/models`
+- Tes Algoritma `Tes_Algoritma.ipynb`
+- DB Migration `/db/migrate`
+- Gemfile `Gemfile`
+
 # Backend Test Case
 
 ## Entities
